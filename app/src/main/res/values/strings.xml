@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Pengeluaran</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="rencana_belanja">Rencana Belanja</string>
+    <string name="semua_catatan">Semua Catatan</string>
+    <string name="rekap_keuangan">Rekap Keuangan</string>
+    <string name="tambah_kategori">Tambah Kategori</string>
+    <string name="transfer">Transfer</string>
+    <string name="tambah_akun">Tambah Akun</string>
+    <string name="pengaturan">Pengaturan</string>
+
+    <string name="label_atur_pin">Atur PIN</string>
+    <string name="label_desc_atur_pin">Atur PIN Anda agar lebih aman</string>
+    <string name="label_nonaktifkan_pin">Nonaktifkan PIN</string>
+    <string name="label_desc_nonaktifkan_pin">Nonaktifkan PIN Aplikasi</string>
+    <string name="label_pengingat">Atur Pengingat</string>
+    <string name="label_desc_pengingat">Pengingat membantu anda mencatat pengeluaran</string>
+    <string name="label_tentang_aplikasi">Tentang Aplikasi</string>
+    <string name="label_desc_tentang_aplikasi">Copyright (c) 2017 Pengeluaran</string>
+
+    <array name="kategori_type">
+        <item>Pilih Kategori</item>
+        <item>Pemasukkan</item>
+        <item>Pengeluaran</item>
+    </array>
+
+    <array name="data_akun">
+        <item>Pilih Akun</item>
+        <item>Dompet</item>
+    </array>
+
+    <array name="data_bulan">
+        <item>Januari</item>
+        <item>Februari</item>
+        <item>Maret</item>
+        <item>April</item>
+        <item>Mei</item>
+        <item>Juni</item>
+        <item>Juli</item>
+        <item>Agustus</item>
+        <item>September</item>
+        <item>Oktober</item>
+        <item>November</item>
+        <item>Desember</item>
+    </array>
+
+    <array name="data_catatan">
+        <item>Pilih Tipe</item>
+        <item>Pemasukkan</item>
+        <item>Pengeluaran</item>
+    </array>
+
+</resources>

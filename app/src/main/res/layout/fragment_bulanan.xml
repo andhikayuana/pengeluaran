@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <Button
+        android:id="@+id/btnTambahCatatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Catatan" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Spinner
+            android:id="@+id/spinBulan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:entries="@array/data_bulan"/>
+
+        <Spinner
+            android:id="@+id/spinTahun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/spinAkun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            style="@style/ItemTableRow.Title"
+            android:text="Tgl" />
+
+        <TextView
+            style="@style/ItemTableRow.Title"
+            android:text="Kategori" />
+
+        <TextView
+            style="@style/ItemTableRow.Title"
+            android:text="Detail" />
+
+        <TextView
+            style="@style/ItemTableRow.Title"
+            android:text="Nominal" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvBulanan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_bulanan" />
+
+</LinearLayout>

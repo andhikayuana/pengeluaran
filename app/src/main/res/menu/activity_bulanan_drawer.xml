@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_rencana_belanja"
+            android:title="@string/rencana_belanja" />
+
+        <item
+            android:id="@+id/nav_semua_catatan"
+            android:title="@string/semua_catatan" />
+
+        <item
+            android:id="@+id/nav_rekap_keuangan"
+            android:title="@string/rekap_keuangan" />
+
+        <item
+            android:id="@+id/nav_tambah_kategori"
+            android:title="@string/tambah_kategori" />
+        <item
+            android:id="@+id/nav_transfer"
+            android:title="@string/transfer" />
+        <item
+            android:id="@+id/nav_tambah_akun"
+            android:title="@string/tambah_akun" />
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:title="@string/pengaturan" />
+
+    </group>
+
+</menu>

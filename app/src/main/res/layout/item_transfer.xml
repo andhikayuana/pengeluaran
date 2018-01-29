@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/etAkunNama"
+        style="@style/ItemTableRow"
+        android:text="Dompet"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/etPemasukkan"
+        style="@style/ItemTableRow.AlignRight"
+        android:text="360000" />
+
+    <TextView
+        android:id="@+id/etPengenluaran"
+        style="@style/ItemTableRow.AlignRight"
+        android:text="10000" />
+
+    <TextView
+        android:id="@+id/etTotal"
+        style="@style/ItemTableRow.AlignRight"
+        android:text="370000" />
+
+</LinearLayout>

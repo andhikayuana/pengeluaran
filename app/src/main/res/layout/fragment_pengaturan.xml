@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/llAturPin"
+        style="@style/SelectableItemLayout">
+
+        <TextView
+            style="@style/LabelSelectableItemLayout"
+            android:text="@string/label_atur_pin" />
+
+        <TextView
+            style="@style/DescSelectableItemLayout"
+            android:text="@string/label_desc_atur_pin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llNonaktifkanPin"
+        style="@style/SelectableItemLayout">
+
+        <TextView
+            style="@style/LabelSelectableItemLayout"
+            android:text="@string/label_nonaktifkan_pin" />
+
+        <TextView
+            style="@style/DescSelectableItemLayout"
+            android:text="@string/label_desc_nonaktifkan_pin" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llAturPengingat"
+        style="@style/SelectableItemLayout">
+
+        <TextView
+            style="@style/LabelSelectableItemLayout"
+            android:text="@string/label_pengingat" />
+
+        <TextView
+            style="@style/DescSelectableItemLayout"
+            android:text="@string/label_desc_pengingat" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llTentangAplikasi"
+        style="@style/SelectableItemLayout">
+
+        <TextView
+            style="@style/LabelSelectableItemLayout"
+            android:text="@string/label_tentang_aplikasi" />
+
+        <TextView
+            style="@style/DescSelectableItemLayout"
+            android:text="@string/label_desc_tentang_aplikasi" />
+
+    </LinearLayout>
+
+</LinearLayout>

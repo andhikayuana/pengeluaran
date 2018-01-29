@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/etNominalCatatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nominal Catatan"
+        android:inputType="number" />
+
+    <Spinner
+        android:id="@+id/spinCatatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/data_catatan"
+        tools:listitem="@android:layout/simple_list_item_1" />
+
+    <Spinner
+        android:id="@+id/spinKategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:id="@+id/spinAkun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/etDetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Detail" />
+
+    <EditText
+        android:id="@+id/etTglBelanja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:hint="DD-MM-YYYY"
+        android:inputType="date" />
+
+</LinearLayout>
